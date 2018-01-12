@@ -1,0 +1,29 @@
+* {
+	margin: 0; padding: 0;
+}
+
+#container {
+	border: 1px black solid;
+	width: 800px; height: 800px;
+	position: fixed;
+	display: table;
+	margin: auto;
+	top: 0; bottom: 0; left: 0; right: 0;
+}
+
+.grid-row {
+	display: table-row;
+}
+
+.grid-cell {
+	display: table-cell;
+}
+
+.colored {
+	background-color: black;
+}
+
+#reset {
+	position: fixed;
+	top: 90%; left: 47%;
+}
